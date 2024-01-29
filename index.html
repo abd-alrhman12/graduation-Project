@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wvalueth=device-wvalueth, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 value="one">illnesses Prediction App</h1>
+    <label for="fname" style="font-size: 30px;"> name:</label>
+    <input type="text" id="fname" name="fname "><br><br>
+  
+    <ul value="checkbox-list" value="disease-checkboxes">
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">Mohter disease List:</li>
+
+        <ul class="checkboxes" value="disease-checkboxes" id="disease-checkboxes1">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" value="alzheimer-checkbox">
+                <span class="checkmark"></span>
+
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox" value="ArthritisDisease">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox" value="CancerDisease">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox" value="Dementiadisease">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" value="Diabetesdisease">
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" value="HeartDisease" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" value="HighBloodPressure" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox"  value="MultipleSclerosis disease">
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" value="ParkinsonDisease" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" value="SpinaBifvalueadisease" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox"  value="ThyrovalueDisordersdisease">
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">father disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes1">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">My grandfather mother's father disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes2" id="disease-checkboxes2">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">My grandmother,  mother's mother disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes3">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">My grandfather is my father's father disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes4">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">My grandmother is my father's mother disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes5">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">uncle disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes6">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">aunt disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes7">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">maternal uncle disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes8">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">The aunt uncle disease List:</li>
+        
+        <ul class="checkboxes" value="disease-checkboxes9">
+       
+            <label class="container">AlzheimerDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">ArthritisDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">CancerDisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dementiadisease
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Diabetesdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HeartDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">HighBloodPressure
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">MultipleSclerosis disease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ParkinsonDisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">SpinaBifvalueadisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+              <label class="container">ThyrovalueDisordersdisease
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List Alzheimer's disease symptoms:</li>
+        <ul class="checkboxes" id="disease-checkboxes10">
+       
+            <label class="container">memory loss
+                <input type="checkbox" value="memory loss" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">problem which language
+                <input type="checkbox" value="problem which language">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">misplacing things
+                <input type="checkbox" value="misplacing things">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">change in personality
+                <input type="checkbox" value="change in personality">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Problems with abstract thinking
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;"> List Arthritis's disease symptoms:</li>
+        <ul class="checkboxes" value="disease-checkboxes11">
+            <label class="container">joint pain
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">tenderness and stiffness
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">inflammation in and around the joints
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">restricted movement of the joints
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">warm red skin over the affected joint
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List of Cancer disease symptoms:</li>
+        <ul class="checkboxes" value="disease-checkboxes12">
+            <label class="container">Bladder changes
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Bowel changes
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Eating problems
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Cough or hoarseness that does not go away
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Bleeding or bruising, for no known reason
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List Dementia disease symptoms:</li>
+        <ul class="checkboxes" value="disease-checkboxes13">
+
+            <label class="container">Repeating questions
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Wandering and getting lost in a familiar neighborhood
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Using unusual words to refer to familiar objects
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Taking longer to complete normal daily tasks
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Acting impulsively
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List Diabetes disease symptoms:</li>
+        <ul class="checkboxes" value="disease-checkboxes14">
+
+            <label class="container">Urinate (pee) a lot, often at night
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Are very thirsty
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Lose weight
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Are very hungry
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Have blurry vision
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List Heart disease symptoms:</li>
+        <ul class="checkboxes" value="disease-checkboxes15">
+       
+            <label class="container">Chest pain
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Shortness of breath
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Swelling in your legs
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Fatigue
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              
+        </ul>
+        
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List High blood pressure symptoms:</li>
+     
+        <ul class="checkboxes" value="disease-checkboxes16">
+
+            <label class="container">Blurred vision
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Nosebleeds
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Shortness of breath
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Chest pain
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Dizziness
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List Multiple sclerosis symptoms:</li>
+       
+        <ul class="checkboxes" value="disease-checkboxes17">
+
+            <label class="container">vision problems
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">numbness and tingling
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">muscle spasms, stiffness and weakness
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">mobility problems
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">pain
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List Parkinson's disease symptoms:</li>
+    
+        <ul class="checkboxes" value="disease-checkboxes18">
+
+            <label class="container">Tremor in hands, arms, legs, jaw, or head
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Muscle stiffness
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Slowed movement (bradykinesia)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Speech changes
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">Writing changes
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List Spina bifvaluea symptoms:</li>
+    
+        <ul class="checkboxes" value="disease-checkboxes19">
+
+            <label class="container">weakness or total paralysis of the legs
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">bowel incontinence and urinary incontinence
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">loss of skin sensation in the legs and around the bottom – the child is unable to feel hot or cold, which can lead to accvalueental injury
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              
+        </ul>
+    
+        <li onclick="toggleCheckboxes(this)" style="font-size: 30px;">List Thyrovalue disorders symptoms:</li>
+    
+        <ul class="checkboxes" value="disease-checkboxes20">
+       
+            <label class="container">twitching or trembling
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">warm skin and excessive sweating
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">red palms of your hands
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">loose nails
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            
+              </label>
+              <label class="container">patchy hair loss or thinning
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label> 
+        </ul>
+        <button onclick="printHello()">Click me</button>
+        <!-- Add more <li> elements for each label -->
+      </ul>
+            <script>
+
+                function toggleCheckboxes(listItem) {
+                  var checkboxes = listItem.nextElementSibling;
+                  checkboxes.classList.toggle("expanded");
+                }
+   
+              </script>
+</body>
+</html>
